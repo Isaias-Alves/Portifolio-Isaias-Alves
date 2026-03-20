@@ -43,8 +43,8 @@ const App = () => {
         <img
           src={theme === "dark" ? dharma : dharmaDark}
           alt="Dharma"
-          className="w-[80vw] md:w-160 opacity-20 transition-transform duration-500 ease-out"
-          style={{ transform: `rotate(${scrollY / 5}deg)` }}
+          className="w-[120vw] md:w-80 opacity-20 transition-transform duration-400 ease-out"
+          style={{ transform: `rotate(${scrollY / 7}deg)` }}
         />
       </div>
       <div className="relative z-10 container mx-auto px-4 pt-[40vh] pb-[20vh] text-center">
@@ -72,6 +72,9 @@ const App = () => {
             General.
           </span>
         </p>
+        <h3 className="text-xl font-medium mb-3 mt-8">
+          Feiticeiro Em Processo de Graduação
+        </h3>
         <p className="max-w-2xl mx-auto font-normal mb-3">
           Cursando o Terceiro Período de Engenharia de Software na PUC Minas, 19
           anos, residente de Belo Horizonte - Minas Gerais. Sou um desenvolvedor

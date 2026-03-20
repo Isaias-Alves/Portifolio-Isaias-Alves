@@ -3,6 +3,7 @@ import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { SiTailwindcss, SiFedora, SiSpringboot } from "react-icons/si";
 import dharma from "./assets/dharma-black.png";
 import dharmaDark from "./assets/dharma-white.png";
+import placehold from "./assets/placeholder.jpg";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -59,9 +60,33 @@ const App = () => {
           </span>
         </p>
       </div>
-      <div className="relative z-10 container mx-auto px-4 pt-[30vh] pb-[20vh] text-center">
+      <div className="relative z-10 container mx-auto px-4 pt-[30vh] pb-[10vh] text-center">
+        <h2 className="text-4xl md:text-3xl font-medium mb-5 tracking-normal">
+          Adaptações do General
+        </h2>
+        <p className="max-w-2xl mx-auto font-normal mb-3">
+          O mundo moderno exige está em constante mudanças, as necessidades
+          humanas criam cada vez mais requisitos. Para lidar com essas
+          maldições, não invoque qualquer sombra, chame um{" "}
+          <span className="dark:text-indigo-500 text-blue-950 font-black opacity-100">
+            General.
+          </span>
+        </p>
+        <p className="max-w-2xl mx-auto font-normal mb-3">
+          Cursando o Terceiro Período de Engenharia de Software na PUC Minas, 19
+          anos, residente de Belo Horizonte - Minas Gerais. Sou um desenvolvedor
+          front-end sempre disposto a aprender novas tecnologias e me adaptar as
+          demandas do mercado.
+        </p>
+        <img
+          src={placehold}
+          alt="Foto de Perfil"
+          className="w-32 h-32 rounded-full mx-auto"
+        ></img>
+      </div>
+      <div className="relative z-10 container mx-auto px-4 pb-[20vh] text-center">
         <h2 className="text-4xl md:text-3xl font-medium mb-5 trcking-normal">
-          Rituais Dominados
+          Sombras Dominadas
         </h2>
         <div className="grid grid-cols-3 w-fit mx-auto justify-center gap-6">
           <FaReact className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />

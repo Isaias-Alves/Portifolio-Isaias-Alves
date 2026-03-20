@@ -1,5 +1,12 @@
 import { useState, useEffect } from "react";
-import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaJava,
+  FaDatabase,
+  FaDocker,
+  FaCss3,
+} from "react-icons/fa";
 import { SiTailwindcss, SiFedora, SiSpringboot } from "react-icons/si";
 import dharma from "./assets/dharma-black.png";
 import dharmaDark from "./assets/dharma-white.png";
@@ -94,10 +101,13 @@ const App = () => {
         <div className="grid grid-cols-3 w-fit mx-auto justify-center gap-6">
           <FaReact className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
           <FaNodeJs className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
+          <FaCss3 className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
           <SiTailwindcss className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
           <SiFedora className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
           <FaJava className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
           <SiSpringboot className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
+          <FaDatabase className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
+          <FaDocker className="inline-block w-12 h-12 dark:text-indigo-500 text-black" />
         </div>
       </div>
     </div>

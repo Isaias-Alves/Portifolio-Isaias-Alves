@@ -10,7 +10,7 @@ import {
 import { SiTailwindcss, SiFedora, SiSpringboot } from "react-icons/si";
 import dharma from "./assets/dharma-black.png";
 import dharmaDark from "./assets/dharma-white.png";
-import placehold from "./assets/placeholder.jpg";
+import profilePicture from "./assets/profile-picture.jpg";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -50,7 +50,7 @@ const App = () => {
         <img
           src={theme === "dark" ? dharma : dharmaDark}
           alt="Dharma"
-          className="w-[120vw] md:w-80 opacity-20 transition-transform duration-400 ease-out"
+          className="w-[150vw] md:w-120 sm:w-70 opacity-20 transition-transform duration-400 ease-out"
           style={{ transform: `rotate(${scrollY / 7}deg)` }}
         />
       </div>
@@ -89,7 +89,7 @@ const App = () => {
           demandas do mercado.
         </p>
         <img
-          src={placehold}
+          src={profilePicture}
           alt="Foto de Perfil"
           className="w-32 h-32 rounded-full mx-auto"
         ></img>
